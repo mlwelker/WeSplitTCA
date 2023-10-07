@@ -1,10 +1,5 @@
-//
-//  WeSplitTCAApp.swift
-//  WeSplitTCA
-//
-//  Created by Michael Welker on 2023-10-06.
-//
 
+import ComposableArchitecture
 import SwiftUI
 
 @main
