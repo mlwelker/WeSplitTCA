@@ -4,12 +4,12 @@ import SwiftUI
 
 @main
 struct WeSplitTCAApp: App {
-    let store = Store(initialState: WeSplit.State.init()) {
-        WeSplit()._printChanges()
+    let store = Store(initialState: Application.State.init()) {
+        Application()._printChanges()
     }
     var body: some Scene {
         WindowGroup {
-            ContentView(store: store)
+            ApplicationView(store: store)
         }
     }
 }
