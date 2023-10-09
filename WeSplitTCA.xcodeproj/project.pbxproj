@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A21B83C42AD0C81F0069A726 /* WeSplitTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B83C32AD0C81F0069A726 /* WeSplitTCAApp.swift */; };
-		A21B83C62AD0C81F0069A726 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B83C52AD0C81F0069A726 /* ContentView.swift */; };
+		A21B83C62AD0C81F0069A726 /* ApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B83C52AD0C81F0069A726 /* ApplicationView.swift */; };
 		A21B83C82AD0C8200069A726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21B83C72AD0C8200069A726 /* Assets.xcassets */; };
 		A21B83CB2AD0C8200069A726 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21B83CA2AD0C8200069A726 /* Preview Assets.xcassets */; };
 		A21B83D32AD0C8E20069A726 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = A21B83D22AD0C8E20069A726 /* ComposableArchitecture */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		A21B83C02AD0C81F0069A726 /* WeSplitTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplitTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21B83C32AD0C81F0069A726 /* WeSplitTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitTCAApp.swift; sourceTree = "<group>"; };
-		A21B83C52AD0C81F0069A726 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A21B83C52AD0C81F0069A726 /* ApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationView.swift; sourceTree = "<group>"; };
 		A21B83C72AD0C8200069A726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A21B83CA2AD0C8200069A726 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				A21B83C32AD0C81F0069A726 /* WeSplitTCAApp.swift */,
-				A21B83C52AD0C81F0069A726 /* ContentView.swift */,
+				A21B83C52AD0C81F0069A726 /* ApplicationView.swift */,
 				A21B83C72AD0C8200069A726 /* Assets.xcassets */,
 				A21B83C92AD0C8200069A726 /* Preview Content */,
 			);
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21B83C62AD0C81F0069A726 /* ContentView.swift in Sources */,
+				A21B83C62AD0C81F0069A726 /* ApplicationView.swift in Sources */,
 				A21B83C42AD0C81F0069A726 /* WeSplitTCAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
